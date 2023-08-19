@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DummyAuth/static/css/main.a3733a38.css",
+    "main.js": "/DummyAuth/static/js/main.f664c8df.js",
+    "index.html": "/DummyAuth/index.html",
+    "main.a3733a38.css.map": "/DummyAuth/static/css/main.a3733a38.css.map",
+    "main.f664c8df.js.map": "/DummyAuth/static/js/main.f664c8df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3733a38.css",
+    "static/js/main.f664c8df.js"
+  ]
+}
