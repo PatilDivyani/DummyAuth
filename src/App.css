@@ -1,0 +1,176 @@
+.signIn {
+  margin: auto auto;
+  margin-top: 100px;
+  width: 444px;
+  height: 454px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+  padding-left: 65px;
+}
+p {
+  color: #757575;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.signIn-title {
+  color: #333;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Form */
+.displayBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.displayBox > label {
+  color: #333;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.displayBox > input {
+  display: flex;
+  width: 352px;
+  height: 45px;
+  padding: 0px 12px;
+  align-items: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #dedede;
+}
+
+/* Continue Button */
+.btn {
+  display: flex;
+  width: 376px;
+  height: 45px;
+  padding: 9px 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+}
+.btn:hover{
+  background: linear-gradient(360deg, #453dde 0%, #463eea 100%);
+  cursor: pointer;
+}
+
+.forgetPassword {
+  text-align: center;
+  color: #625bf7;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 60px;
+}
+.forgetPassword:hover{
+  cursor: pointer;
+}
+@media screen and (max-width: 420px){
+  .signIn {
+    margin: auto auto;
+    margin-top: 80px;
+    width: 342px;
+    height: 457px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+    padding-left: 35px;
+  }
+  p {
+    color: #757575;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .signIn-title {
+    color: #333;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+  form > label {
+    color: #333;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  form > input {
+    display: flex;
+    width: 282px;
+    height: 45px;
+    padding: 0px 12px;
+    align-items: flex-start;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+  }
+  .btn {
+    display: flex;
+    width: 306px;
+    height: 45px;
+    padding: 9px 14px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+  }
+  .btn:hover{
+    background: linear-gradient(360deg, #453dde 0%, #463eea 100%);
+    cursor: pointer;
+  }
+  
+  .forgetPassword {
+    text-align: center;
+    color: #625bf7;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 60px;
+  }
+  .forgetPassword:hover{
+    cursor: pointer;
+  }
+}
